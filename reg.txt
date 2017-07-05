@@ -1,0 +1,9 @@
+author:\b([A-Z]\s?\.)+\s*[A-Z]*[a-z]\w*
+company:
+issue_date:(Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|Jun(e)?|Jul(y)?|Aug(ust)?|Sep(tember)?|Oct(ober)?|Nov(ember)?|Dec(ember)?)\s+\d{4}
+Obsoletes:(?<=Obsoletes:\s)\d*
+ObsoletedBy:(?<=Obsoleted by:\s)\d*
+Updates:(?<=Updates:\s)\d*
+UpdatedBy:(?<=Updated by:\s)\d*
+FYI:
+Status:
