@@ -7,3 +7,14 @@ Updates:(?<=Updates:\s)\d*
 UpdatedBy:(?<=Updated by:\s)\d*
 FYI:
 Status:
+
+addresses: (?<=Authors' Addresses)[\s\S]*
+
+
+
+
+
+file_name	issue_date		author			e_mail			company										country		obsoletes 	obsoleted_by 	updates u	pdated_by 	status
+rfc6083		January 2011	M. Tuexen						Muenster Univ. of Applied Sciences		
+rfc6083		January 2011	R. Seggelmann					Muenster Univ. of Applied Sciences		
+rfc6083		January 2011	E. Rescorla						RTFM, Inc.
